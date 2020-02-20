@@ -11,31 +11,52 @@
   <link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,600,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:300,700" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
   <link href="style.css" type="text/css" rel="stylesheet">
      
   
   <title>Alice Johnson</title>
  </head>
 <body>
-         <nav id="sec_nav">
-      <ul>
-          <li><a class="btn btn-outline-light text-light border-warning" href="aboutme.html" role="button">About Me</a></li>
-          <li><a class="btn btn-outline-light text-light border-warning" href="aboutme.html" role="button">Skills</a></li>
-          <li><a class="button" class="btn btn-outline-light text-light border-warning" href="Projects/1.html" role="button">Portfolio</a></li>
-          <li><a class="button" class="btn btn-outline-light text-light border-warning" href="contact.html" target="_blank" role="button">Contact</a></li>
-      </ul>
-    </nav>
-       
-       <div>
-        <h1 id="name"> ALICE JOHNSON</h1>
-    
-    <h4 class="headers">Email</h4>
-    <h4 class="headers">Social Media</h4>
-    
-   
-   
+    <div id="sec_nav" class="container-fluid" style="height:100vh;">
+        <div class="row justify-content-between"> <!---horizontal alignment--->
+            <div class="col-auto">
+                <a href="index.html">
+                 <img src="img/Logo.gif" style="width:122.4px;height:82px">
+                </a>
+            </div>
+            <div class="col-auto">
+                <ul>
+                <li><a class="btn btn-primary" href="aboutme.html" role="button">About Me</a></li>
+                <li><a class="btn btn-primary" href="skills.html" role="button">Skills</a></li>
+                <li><a class="btn btn-primary custom-btn" href="Projects/1.html" role="button">Portfolio</a></li>
+                <li><a class="btn btn-primary custom-btn" href="contact.html" target="_blank" role="button">Contact</a></li>
+                </ul> 
+            </div>
             
-     
-  
+        </div>
+        <div class="row justify-content-start"> 
+            <div class="col">
+                <h2 id="bioname">CONTACT</h2>  
+            </div>
+        </div>
+        
+        <div class="row justify-content-auto mt-5">
+            <div class="col-auto about-me-sm" id="biopic">
+                    <img src="img/aboutmepic.jpg" height="300" alt="Alice Johnson Prof Headshot"/>
+            </div>
+            <div class="col-auto">
+                <h4 class="headers">Email</h4>
+                <p id="aboutbody">johnsonalicet@gmail.com</p>
+            </div>
+            <div class="col-auto">
+                <h4 class="headers">Social Media</h4> 
+                <p id="aboutbody"> Instagram: blue_eyed7</p>
+            </div>
+        </div>
+            
+    </div
+            
+
 </body>
     </html>
