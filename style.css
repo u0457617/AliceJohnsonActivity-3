@@ -1,0 +1,145 @@
+:root{
+    /*Fonts */
+    --main-font-primary: "Oswald", san-serif;
+    --main-font-secondary: "Amatic", raleway;
+    /*colors*/
+    --main-color-gray: #E9E7E8;
+    --main-color-cream: #E9E7E8;
+    --main-color-mint: #C5EAE3;
+    --main-color-yellow: #F5F1B6;
+    --main-color-darkgray: #756F70;
+    --main-color-black: #302E2E;
+}
+
+/*Container*/
+#sec-nav {
+    height: 100vh;
+}
+
+
+@media (min-width: 576px){
+    
+}
+#name {
+   font-size: 100px;
+    font-family: var(--main-font-primary);
+    color: #F5F1B6;  
+    text-shadow: 2px 2px #A19999;
+    text-align: center;
+    padding-top:100px;
+}
+
+#bioname {
+    font-size: 50px;
+    font-family: var(--main-font-primary);
+    color: #F5F1B6;  
+    text-shadow: 2px 2px #A19999;
+    text-align: start;
+    font-size: 85px;
+}
+
+body {
+    background-color: #484d5c; 
+}
+
+#headline {
+    font-family: var(--main-font-secondary);
+    color: white;
+    font-weight: 700;
+    text-align:center;
+    
+}
+
+#subheadline {
+    font-family: 'Amatic', raleway;
+    color: var(--main-color-darkgray);
+    text-align:center;
+    margin: 35px 50px 0px 50px;
+}
+
+.headers {
+    font-size: 50px;
+    font-family: 'Oswald', san-serif;
+    color: #756F70;
+    text-shadow: 2px 2px #C5EAE3;
+}
+    
+
+#aboutbody {
+    font-family: var(--main-font-secondary);
+    font-size: 20px;
+    text-align: left;
+    color: var(-main-color-darkgray);
+   
+}
+/*This is the area of the navigation bar*/
+#sec_nav ul li {
+    color: #ffce00;
+    display: inline-block; 
+    height: 80px;
+    line-height: 80px; 
+    list-style: none;
+    padding: 0 10px;
+    transition: background .5s;
+    font-family: 'Oswald', serif;
+    align-items: center;
+   
+    
+}
+.container-fluid {
+    background-image: url("img/Landing.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: right; /*background-focus: */
+    background-repeat: repeat;
+    
+}
+a.btn-primary {
+    color:var(--main-color-yellow);
+	background-color: var(--main-color-darkgray);
+	border-color: var(--main-color-darkgray);
+}
+
+
+/* mouse over link */
+#sec_nav a.btn-primary:hover {
+	color: var(--main-color-white);
+	background-color: var(--main-color-mint);
+	border-color: var(--main-color-mint);
+	box-shadow: none;
+        
+    }
+
+#biopic {
+    padding-left:20px;
+    
+}
+
+@media (max-width: 576px) {
+    html {
+        font-size: 80%;
+    }
+    #name {
+        padding: 0px;
+        font-size: 75px;
+    }
+    #headline {
+        text-shadow: 1px 1px #A19999; 
+    }
+    
+    #subheadline {
+       padding-top: 50px;
+        margin: 0px;
+        
+    }
+    #bioname {
+        text-align: center;
+    }
+    #biopic {
+        align-content: center;
+    }
+    
+    .about-me-sm {
+        align-content: center;
+    }
+}
