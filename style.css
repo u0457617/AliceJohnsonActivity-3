@@ -16,17 +16,13 @@
     height: 100vh;
 }
 
-
-@media (min-width: 576px){
-    
-}
 #name {
    font-size: 100px;
     font-family: var(--main-font-primary);
     color: #F5F1B6;  
     text-shadow: 2px 2px #A19999;
     text-align: center;
-    padding-top:75px;
+    padding-top:60px;
 }
 
 #bioname {
